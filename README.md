@@ -3,7 +3,7 @@
 An end-to-end machine learning pipeline that predicts which bank customers are likely to churn and converts those predictions into business-ready risk scores for a retention team to act on.
 
 📄 **Research Paper:** [Bank_Churn_Research_Paper.pdf](./Bank_Churn_Research_Paper.pdf)
-🚀 **Live Demo:** [Add your Streamlit Cloud URL here after deploying](#deployment)
+🚀 **Live Demo:** [https://predictive-modeling-and-risk-scoring-for-bank-customer-churn-s.streamlit.app/](#deployment)
 
 ## Overview
 
