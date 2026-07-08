@@ -139,10 +139,3 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 This opens the dashboard in your browser at `http://localhost:8501`, with three tabs: a metrics dashboard, a live single-customer risk calculator, and the full risk-scored customer list with CSV download.
-
-### Deploy for free on Streamlit Community Cloud
-1. Push this repo (including `app.py` and `requirements.txt`) to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **"New app"**, select this repository and branch, and set the main file path to `app.py`.
-4. Click **Deploy**. The first build takes a few minutes to install dependencies.
-5. Copy the resulting `https://<your-app-name>.streamlit.app` URL and paste it into the **Live Demo** link at the top of this README.
