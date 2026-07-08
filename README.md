@@ -28,9 +28,6 @@ Customer churn is one of the costliest problems for retail banks — acquiring a
 │   ├── feature_importance.png        # Top drivers of churn
 │   ├── model_comparison.csv          # Accuracy / precision / recall / F1 / ROC-AUC per model
 │   ├── customer_risk_scores.csv      # Final prioritized, risk-scored customer list
-│   ├── best_model.pkl                # Trained model (serialized)
-│   ├── scaler.pkl                    # Fitted StandardScaler
-│   └── metadata.pkl                  # Feature names & config used at inference time
 └── README.md
 ```
 
