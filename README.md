@@ -34,9 +34,6 @@ Customer churn is one of the costliest problems for retail banks — acquiring a
 │   ├── feature_importance.png        # Top drivers of churn
 │   ├── model_comparison.csv          # Accuracy / precision / recall / F1 / ROC-AUC per model
 │   ├── customer_risk_scores.csv      # Final prioritized, risk-scored customer list
-│   ├── best_model.pkl                # Trained model (serialized)
-│   ├── scaler.pkl                    # Fitted StandardScaler
-│   └── metadata.pkl                  # Feature names & config used at inference time
 └── README.md
 ```
 
@@ -149,21 +146,3 @@ This opens the dashboard in your browser at `http://localhost:8501`, with three 
 3. Click **"New app"**, select this repository and branch, and set the main file path to `app.py`.
 4. Click **Deploy**. The first build takes a few minutes to install dependencies.
 5. Copy the resulting `https://<your-app-name>.streamlit.app` URL and paste it into the **Live Demo** link at the top of this README.
-
-## Research Paper
-
-A short research paper (`Bank_Churn_Research_Paper.pdf`) is included in this repo, covering the motivation, related work, methodology, results, and limitations of this project in academic paper format. Link to it directly from your resume/portfolio via the GitHub-hosted file URL, e.g.:
-```
-https://github.com/<your-username>/<your-repo>/blob/main/Bank_Churn_Research_Paper.pdf
-```
-
-## Future Improvements
-
-- Hyperparameter tuning (GridSearchCV / Optuna) for further model gains
-- SHAP values for per-customer explainability alongside the risk score
-- A simple Flask/Streamlit dashboard for the retention team to browse risk-scored customers interactively
-- Time-based validation if historical churn snapshots become available, instead of a single static split
-
-## License
-
-This project is open-source and available under the MIT License.
